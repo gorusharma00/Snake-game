@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "VT323", monospace;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #2E0231;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px
+}
+
+#game-arena{
+    display: grid;
+    grid-template-columns: repeat(20,22px);
+    grid-template-rows: repeat(20,22px);
+    background-color: #FBFD80;
+    border-radius: 11px;
+    margin: 5px;
+}
+
+.game-border-1{
+    border: 20px solid #BF3329;
+    border-radius: 15px;
+    box-shadow: inset 0 0 0 10px #BF3329;
+}
+
+.snake {
+    border: #272727 1px dotted;
+    background-color: #272727;
+}
+
+.food {
+    background-color: #dedede;
+    border: #999 5px solid;
+}
+
+.score-container{
+    display: flex;
+    gap: 190px;
+}
+
+#score, #high-score{
+    color: #FBFD80;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#instruction-txt{
+    position: absolute;
+    top:74%;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+#logo{
+    position: absolute;
+    top: 25%;
+    height: 350px;
+    width: 300px;
+}
