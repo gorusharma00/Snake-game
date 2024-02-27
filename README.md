@@ -4,11 +4,11 @@ This project is a classic Snake game built using HTML, CSS, and JavaScript.
 
 ## Preview
 
-![screenshot]()
+![screenshot](https://github.com/gorusharma00/Snake-game/assets/108645957/424e016b-fe1a-4456-870e-2bbaf692ece9)
 
 ## Live Play
 
-[Click to play the game]()
+[Click to play the game](https://game-js-snake.netlify.app/)
 
 ## Controls
 
